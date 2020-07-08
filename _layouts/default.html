@@ -1,0 +1,19 @@
+---
+---
+
+<!doctype html>
+
+<html lang="en">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <title>{{page.title}}</title> <!--This is the part that determines the page title on the tab in a web browser-->
+    {% include head.html %}
+  </head>
+  <style>
+    body {background-color: {{site.background-color}};}
+  </style>
+  <body>
+    {{ content }}
+    {% include footer.html %}
+  </body>
+</html>

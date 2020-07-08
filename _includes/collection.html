@@ -1,0 +1,9 @@
+<br>
+<div class="heading">{{include.heading}}</div>
+<hr>
+<p style="text-align: left;">
+{% for project in site.projects %}
+{{project.publish_date}}: <a href="{{project.url}}">{{project.title}}</a>
+<br>
+{% endfor %}
+</p>

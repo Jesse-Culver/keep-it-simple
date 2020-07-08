@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<div class="heading">{{page.title}}</div>
+<hr>
+<p>
+  {{content}}
+</p>
+<br>
+<div class="heading">Articles</div>
+<hr>
+<p style="text-align: left;">
+{% for project in site.projects %}
+{{project.publish_date}}: <a href="{{project.url}}">{{project.title}}</a>
+<br>
+{% endfor %}
+</p>

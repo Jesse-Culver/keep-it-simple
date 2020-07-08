@@ -1,0 +1,48 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# `jekyll serve`. If you change this file, please restart the server process.
+
+# Theme Settings
+title                    : "My Example Website"
+url                      : "https://example.com" # the base hostname & protocol for your site e.g. "https://example.github.io"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
+background-color         : "#DBE1F1"
+
+# Syntax highlight
+# These were all created using Pygments https://github.com/richleland/pygments-css
+# Swap the name out and restart the service to see the change
+# Recommended: emacs, fruity, monokai, native, pastie, perldoc
+syntax_highlight         : "pastie"
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+# Header
+# Starts prepopulated with About, Contact, and Projects
+# You can add or remove by modifying "_includes/head.html"
+
+# Footer
+# Prepopulated with some common links
+# You can add or remove by modifying "_include/footer.html"
+author                  : "Example Name" # The name that shows up in the footer for the ©
+github_username         : "example"
+twitter                 : "example"
+
+collections:
+  posts:
+    output: true
+  codingprojects:
+    output: true
+  cookingprojects:
+    output: true

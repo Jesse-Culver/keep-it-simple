@@ -1,0 +1,136 @@
+
+body {
+  /* Main Font Settings */
+  font-family: consolas, monospace, Courier;
+  font-size: medium;
+  max-width: 900px;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin: 0 auto;
+}
+
+a {
+  color: black;
+  font-weight: bold;
+}
+
+blockquote {
+  margin-left: 0;
+  font-style: italic;
+  border-style: dotted;
+  padding: 5px;
+}
+
+rt {
+  font-size: x-small;
+}
+
+/* Footer */
+
+.footer {
+}
+
+.footer-small {
+  text-decoration: none;
+  font-size: small;
+  text-align: center;
+}
+
+/* Header */
+
+.header {
+  display: inline-block;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+
+.header-links {
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+}
+
+.title {
+  text-decoration: none;
+}
+
+div.heading {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Posts */
+
+div.heading-xx-large {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: xx-large;
+}
+
+div.heading-x-large {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: x-large;
+}
+
+div.heading-large {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: large
+}
+
+.publication-dates {
+  font-size: small;
+}
+
+/* Code Syntax Highlting */
+
+.highlighter-rouge {
+  border-style: solid;
+  border-color: black;
+  overflow: auto;
+  background-color: #ffffff; /* Depending on your syntax styler you may need to update this to match */
+  max-height: 450px;
+}
+
+.lineno {
+  border-right-style: solid;
+  border-width: 1px;
+  padding-right: 5px;
+}
+
+/* Image Classes */
+
+.img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figure {
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+}
+
+/* Video Embed */
+/* Thanks nathancy https://github.com/nathancy/jekyll-embed-video */
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 500px) { /* For small screen decices */
+}

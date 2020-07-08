@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<div class="publication-dates">
+  {% if page.author != "" %}
+  Author: {{page.author}}
+  <br>
+  {% endif %}
+  Published: {{page.publish_date}}
+  {% if page.last_modified != "" %}
+  <br>
+  Last Updated: {{page.last_modified}}
+  {% endif %}
+</div>
+<br>
+<div class="heading">
+  {{page.title}}
+</div>
+<hr>
+<div class="content">
+  {{ content }}
+</div>
+
